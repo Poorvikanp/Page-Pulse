@@ -82,4 +82,4 @@ Error responses:
 I used Claude to scaffold the initial FastAPI structure — the `/audit` endpoint, the parsing logic, and the first pass at the test suite. From there I ran it locally, tested it against real sites (including checking it correctly caught 17 images missing alt text on github.com), and changed the UI myself: swapped the color palette away from the generic blue-on-white default, added the status-code badge (color-coded by 2xx/3xx/4xx+) and the "copy report as JSON" button, since those felt like the kind of small, useful additions a real user of this tool would actually want. I also decided on my own how to handle non-HTML responses — treating them as a soft `200` with an explanatory error rather than a hard failure — since I felt that better reflected what actually went wrong (the tool did its job; the target just isn't a webpage).
 
 ---
-Built for Digital Heroes Training Task 
+Built for Digital Heroes Training Task — [digitalheroesco.com](https://digitalheroesco.com)
