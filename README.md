@@ -1,4 +1,4 @@
-# Page Pulse
+## Page Pulse ##
 
 A small tool that audits any URL and reports back HTTP status, response time,
 title, meta description, H1 count, images missing alt text, and approximate
